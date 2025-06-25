@@ -1,4 +1,4 @@
-# NodeJKBMS
+# Node-JKBMS
 
 Utility to retrieve data from JK (JiKong/Heltec/Hankzor) BMS units and publish it to MQTT, written in NodeJS.
 
