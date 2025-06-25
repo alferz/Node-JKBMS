@@ -1,0 +1,22 @@
+{
+  "name": "nodejkbms",
+  "version": "1.0.0",
+  "description": "Utility to retrieve data from JK (JiKong/Heltec/Hankzor) BMS units and publish it to MQTT, written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alferz",
+  "license": "MIT",
+  "bin": {
+    "node-jkbms": "./index.js"
+  },
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "mqtt": "^4.2.8",
+    "pino": "^6.13.3",
+    "pino-pretty": "^7.0.1",
+    "serialport": "^10.5.0",
+    "yargs": "^17.2.1"
+  }
+}
